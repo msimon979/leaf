@@ -1,1 +1,5 @@
+pyvenv.cfg
+bin
+venv
 db.sqlite3
+lib

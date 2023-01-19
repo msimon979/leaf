@@ -1,4 +1,4 @@
-web := leaflogistics-web-1
+web := leaf-web-1
 
 connect_web:
 	docker exec -ti $(web) bash
