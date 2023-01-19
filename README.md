@@ -37,4 +37,6 @@ curl --location --request POST 'http://0.0.0.0:8000/matrix/' \
 ## Notes
 The api requires certain imports to run but no imports were used for the actual logic piece in helpers.transpose_matrix.
 
-numpy is imported in the test file to verify helpers.transpose_matrix is returning the correct data
+Numpy is imported in the test file to verify helpers.transpose_matrix is returning the correct data.
+
+Even though nothing is saved to a database still using POST since it is passing a payload.
